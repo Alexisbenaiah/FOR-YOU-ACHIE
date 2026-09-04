@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Someone Special 💗</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height:100vh;
+    font-family: "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at top, #ffb6d9 0%, #7c3f68 45%, #180b20 100%);
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Floating hearts */
+
+.heart{
+    position:fixed;
+    bottom:-50px;
+    font-size:20px;
+    animation:float 8s linear infinite;
+    opacity:.7;
+    z-index:0;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0) scale(.8) rotate(0deg);
+        opacity:0;
+    }
+    15%{
+        opacity:.8;
+    }
+    100%{
+        transform:translateY(-110vh) scale(1.4) rotate(360deg);
+        opacity:0;
+    }
+}
+
+.container{
+    position:relative;
+    z-index:2;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+}
+
+.card{
+    width:100%;
+    max-width:650px;
+    padding:40px 28px;
+    text-align:center;
+    border-radius:30px;
+
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.4),
+        inset 0 0 30px rgba(255,255,255,.05);
+
+    animation:appear 1.5s ease;
+}
+
+@keyframes appear{
+    from{
+        opacity:0;
+        transform:translateY(40px) scale(.95);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0) scale(1);
+    }
+}
+
+.small{
+    font-size:14px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    opacity:.8;
+    margin-bottom:15px;
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:15px;
+    text-shadow:0 0 20px rgba(255,150,200,.7);
+}
+
+.subtitle{
+    font-size:17px;
+    line-height:1.7;
+    opacity:.9;
+}
+
+.divider{
+    width:80px;
+    height:2px;
+    background:rgba(255,255,255,.7);
+    margin:25px auto;
+    border-radius:10px;
+}
+
+.message{
+    font-size:17px;
+    line-height:1.9;
+    text-align:left;
+    margin-top:25px;
+}
+
+.message p{
+    margin-bottom:18px;
+}
+
+.highlight{
+    font-size:21px;
+    font-weight:bold;
+    text-align:center;
+    margin:25px 0;
+    color:#ffd5e8;
+    text-shadow:0 0 15px rgba(255,150,200,.7);
+}
+
+button{
+    margin-top:25px;
+    padding:14px 28px;
+    border:none;
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#ff6fae,#ff9ac8);
+    color:white;
+
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:
+        0 8px 25px rgba(255,80,150,.35);
+
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px) scale(1.03);
+    box-shadow:
+        0 12px 35px rgba(255,80,150,.5);
+}
+
+.hidden{
+    display:none;
+}
+
+.signature{
+    margin-top:30px;
+    font-style:italic;
+    opacity:.8;
+}
+
+.big-heart{
+    font-size:55px;
+    animation:heartbeat 1.5s infinite;
+    margin-bottom:10px;
+}
+
+@keyframes heartbeat{
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.15);
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        padding:32px 21px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    .subtitle,
+    .message{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div class="heart" style="left:5%; animation-delay:0s;">♡</div>
+<div class="heart" style="left:15%; animation-delay:2s;">♥</div>
+<div class="heart" style="left:28%; animation-delay:4s;">♡</div>
+<div class="heart" style="left:42%; animation-delay:1s;">♥</div>
+<div class="heart" style="left:55%; animation-delay:5s;">♡</div>
+<div class="heart" style="left:68%; animation-delay:3s;">♥</div>
+<div class="heart" style="left:80%; animation-delay:6s;">♡</div>
+<div class="heart" style="left:92%; animation-delay:1.5s;">♥</div>
+
+<div class="container">
+
+<div class="card">
+
+    <div class="big-heart">♡</div>
+
+    <div class="small">
+        A little something for you
+    </div>
+
+    <h1>For Someone Special (Achie)</h1>
+
+    <div class="subtitle">
+        Hindi ko alam kung paano ko ito sasabihin...
+        kaya naisip kong gumawa na lang ng maliit na lugar
+        para sa mga salitang hindi ko masabi nang diretso.
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="message">
+
+        <p>
+            We haven't known each other for that long.
+            Sa totoo lang, lately lang tayo nagkakilala through an app.
+        </p>
+
+        <p>
+            Pero somehow, may kakaiba sa'yo.
+            Hindi ko ma-explain kung paano o bakit,
+            pero sa maikling panahon na nakilala kita,
+            parang may something sa'yo na hindi ko basta ma-ignore.
+        </p>
+
+        <p>
+            Hindi naman kita gustong madaliin.
+            Hindi rin ako gumagawa ng malaking expectation.
+            Gusto ko lang maging honest sa isang bagay...
+        </p>
+
+        <div class="highlight">
+            You became special to me faster than I expected. ♡
+        </div>
+
+        <p>
+            Siguro dahil sa way ng pakikipag-usap mo,
+            sa little things na ginagawa mo,
+            sa comfort na nararamdaman ko kapag kausap kita,
+            at sa feeling na parang ang gaan ng mundo kahit saglit lang.
+        </p>
+
+        <p>
+            Nakakatuwa lang isipin na isang taong hindi ko naman
+            inaasahang makikilala ko, suddenly became someone
+            na hinihintay kong makausap.
+        </p>
+
+        <p>
+            Hindi ko alam kung saan tayo dadalhin ng mga susunod
+            na araw. Maybe we'll become closer,
+            maybe we'll simply remain two people who crossed paths.
+        </p>
+
+        <p>
+            But whatever happens...
+            I'm genuinely thankful that I met you.
+        </p>
+
+    </div>
+
+    <button onclick="showMessage()">
+        💌 May gusto pa akong sabihin
+    </button>
+
+    <div id="secret" class="hidden">
+
+        <div class="divider"></div>
+
+        <div class="message">
+
+            <p>
+                Kung sakaling hindi ko man masabi sa'yo nang harapan,
+                gusto kong malaman mo ito:
+            </p>
+
+            <div class="highlight">
+                I'm really happy that I met you.
+            </div>
+
+            <p>
+                At kahit maikli pa lang ang panahon,
+                somehow you already left a beautiful little space
+                in my thoughts.
+            </p>
+
+            <p>
+                Hindi ko kailangan ng mabilis na sagot.
+                Hindi ko rin kailangan malaman agad kung ano
+                ang magiging ending nito.
+            </p>
+
+            <p>
+                For now, I just want to enjoy knowing you,
+                talking to you, laughing with you,
+                and discovering the person behind the screen.
+            </p>
+
+            <p>
+                And maybe someday,
+                kapag mas matagal na tayong magkakilala,
+                babalikan natin itong maliit na website na 'to
+                at matatawa tayo kung gaano ka-simple
+                pero ka-special ang simula.
+            </p>
+
+            <div class="highlight">
+                Thank you for coming into my life. ♡
+            </div>
+
+        </div>
+
+        <div class="signature">
+            — From someone who didn't expect to meet you,
+            but is really glad she did. 💗
+          © Alexis
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<script>
+
+function showMessage(){
+
+    const secret = document.getElementById("secret");
+    const button = document.querySelector("button");
+
+    secret.classList.remove("hidden");
+
+    button.style.display = "none";
+
+    setTimeout(function(){
+
+        secret.scrollIntoView({
+            behavior:"smooth",
+            block:"center"
+        });
+
+    },200);
+
+}
+
+</script>
+
+</body>
+</html>
+
